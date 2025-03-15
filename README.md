@@ -36,19 +36,20 @@
 12. **Gérer les erreurs** avec un système de **journalisation** (`try/catch`).
 
 
-**Pour aller Plus loin**
 
 
 ### Gestion des fichiers (uploads)
-
 13. Créer un dossier `uploads` pour stocker les fichiers soumis par les utilisateurs.
-14. **Valider le numéro d’étudiant** (chiffres uniquement) avec `ctype_digit()`.
-15. Sécuriser les fichiers en **autorisant uniquement certains types** (`pdf`, `doc`, `jpg`, etc.).
-16. Définir une **taille maximale** de fichier à `2MB`.
-17. Vérifier le **type et la taille du fichier** avant l’upload.
-18. Définir un **nom unique** pour chaque fichier et utiliser un dossier sécurisé.
-19. Déplacer le fichier en toute sécurité avec `move_uploaded_file()`.
-20. Stocker le **chemin relatif** du fichier dans la base de données (meilleure pratique).
+    
+**Pour aller Plus loin**
+
+15. **Valider le numéro d’étudiant** (chiffres uniquement) avec `ctype_digit()`.
+16. Sécuriser les fichiers en **autorisant uniquement certains types** (`pdf`, `doc`, `jpg`, etc.).
+17. Définir une **taille maximale** de fichier à `2MB`.
+18. Vérifier le **type et la taille du fichier** avant l’upload.
+19. Définir un **nom unique** pour chaque fichier et utiliser un dossier sécurisé.
+20. Déplacer le fichier en toute sécurité avec `move_uploaded_file()`.
+21. Stocker le **chemin relatif** du fichier dans la base de données (meilleure pratique).
 
 ### Améliorations possibles
 
